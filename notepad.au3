@@ -1,4 +1,4 @@
-Run("notepad.exe)￼
+Run("notepad.exe")￼
 WinWaitActive("[CLASS:Notepad]")
 Sleep(500)
 Send("My Github Page > " https://github.com/Mr-Banana-2045")
