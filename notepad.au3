@@ -1,7 +1,7 @@
 Run("notepad.exe")￼
 WinWaitActive("[CLASS:Notepad]")
 Sleep(500)
-Send("My Github Page > " https://github.com/Mr-Banana-2045")
+Send("My Github Page > https://github.com/Mr-Banana-2045")
 Sleep(5000)
 WinClose("[CLASS:Notepad]")
 Send("!N")
